@@ -1,0 +1,96 @@
+/* Reset e estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #c910b3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navegação */
+nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Conteúdo principal */
+main {
+    flex: 1;
+    max-width: 1200px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin: 40px 0;
+    text-align: center;
+    flex: 1;
+    max-width: 1200px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+article {
+    margin: 40px 0;
+    text-align: center;
+    flex: 1;
+    max-width: 1200px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+section p {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+}
